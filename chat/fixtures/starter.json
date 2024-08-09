@@ -1,0 +1,313 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$74E0R1pwR7sGttaNqyFW8N$4VxezRFlPnPsBU6wWlQ4GhUG8quuaty/qoHTAKZFnVs=",
+            "last_login": "2024-08-08T23:12:07.137Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "Gilbert",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-08-08T21:45:23.787Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$74E0R1pwR7sGttaNqyFW8N$4VxezRFlPnPsBU6wWlQ4GhUG8quuaty/qoHTAKZFnVs=",
+            "last_login": "2024-08-08T21:45:34.592Z",
+            "is_superuser": false,
+            "username": "user1",
+            "first_name": "Denis",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-08-08T21:45:23.787Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$74E0R1pwR7sGttaNqyFW8N$4VxezRFlPnPsBU6wWlQ4GhUG8quuaty/qoHTAKZFnVs=",
+            "last_login": "2024-08-08T21:45:34.592Z",
+            "is_superuser": true,
+            "username": "user2",
+            "first_name": "Francis",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-08-08T21:45:23.787Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$74E0R1pwR7sGttaNqyFW8N$4VxezRFlPnPsBU6wWlQ4GhUG8quuaty/qoHTAKZFnVs=",
+            "last_login": "2024-08-09T02:58:00.149Z",
+            "is_superuser": true,
+            "username": "user3",
+            "first_name": "Nicole",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-08-08T21:45:23.787Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$74E0R1pwR7sGttaNqyFW8N$4VxezRFlPnPsBU6wWlQ4GhUG8quuaty/qoHTAKZFnVs=",
+            "last_login": "2024-08-08T21:45:34.592Z",
+            "is_superuser": true,
+            "username": "user4",
+            "first_name": "Ismaeel",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-08-08T21:45:23.787Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 6,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$74E0R1pwR7sGttaNqyFW8N$4VxezRFlPnPsBU6wWlQ4GhUG8quuaty/qoHTAKZFnVs=",
+            "last_login": "2024-08-08T21:45:34.592Z",
+            "is_superuser": true,
+            "username": "user5",
+            "first_name": "Nora",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-08-08T21:45:23.787Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "chat.profile",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "avatar": "avatars/1.png"
+        }
+    },
+    {
+        "model": "chat.profile",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "avatar": "avatars/2.png"
+        }
+    },
+    {
+        "model": "chat.profile",
+        "pk": 3,
+        "fields": {
+            "user": 3,
+            "avatar": "avatars/3.png"
+        }
+    },
+    {
+        "model": "chat.profile",
+        "pk": 4,
+        "fields": {
+            "user": 4,
+            "avatar": "avatars/4.png"
+        }
+    },
+    {
+        "model": "chat.profile",
+        "pk": 5,
+        "fields": {
+            "user": 5,
+            "avatar": "avatars/5.png"
+        }
+    },
+    {
+        "model": "chat.profile",
+        "pk": 6,
+        "fields": {
+            "user": 6,
+            "avatar": "avatars/6.png"
+        }
+    },
+    {
+        "model": "chat.chat",
+        "pk": 1,
+        "fields": {
+            "chat_id": "8621384c-ac57-4833-9c40-59390f218ebe",
+            "chat_name": null,
+            "is_private": false,
+            "members": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "model": "chat.chat",
+        "pk": 2,
+        "fields": {
+            "chat_id": "2ca8176c-3604-4ee4-9f1b-b0535453542c",
+            "chat_name": null,
+            "is_private": false,
+            "members": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "model": "chat.chat",
+        "pk": 3,
+        "fields": {
+            "chat_id": "c692ae4b-4d82-4ab6-aa47-570105e6e39f",
+            "chat_name": null,
+            "is_private": false,
+            "members": [
+                1,
+                4
+            ]
+        }
+    },
+    {
+        "model": "chat.chat",
+        "pk": 4,
+        "fields": {
+            "chat_id": "2ea8eeb9-77a6-4016-8eeb-1bb99e46471e",
+            "chat_name": null,
+            "is_private": false,
+            "members": [
+                1,
+                5
+            ]
+        }
+    },
+    {
+        "model": "chat.chat",
+        "pk": 5,
+        "fields": {
+            "chat_id": "2f905a44-00bf-4247-a736-00874e1d496f",
+            "chat_name": null,
+            "is_private": false,
+            "members": [
+                1,
+                6
+            ]
+        }
+    },
+    {
+        "model": "chat.message",
+        "pk": 3,
+        "fields": {
+            "chat": 1,
+            "sender": 1,
+            "content": "Hey, how's it going?",
+            "timestamp": "2024-08-09T00:57:25.920Z"
+        }
+    },
+    {
+        "model": "chat.message",
+        "pk": 4,
+        "fields": {
+            "chat": 1,
+            "sender": 2,
+            "content": "Not too bad, just working on a project. How about you?",
+            "timestamp": "2024-08-09T00:57:42.178Z"
+        }
+    },
+    {
+        "model": "chat.message",
+        "pk": 5,
+        "fields": {
+            "chat": 1,
+            "sender": 1,
+            "content": "Same here, been busy with meetings all morning. How's the project going?",
+            "timestamp": "2024-08-09T00:57:59.150Z"
+        }
+    },
+    {
+        "model": "chat.message",
+        "pk": 6,
+        "fields": {
+            "chat": 1,
+            "sender": 2,
+            "content": "It's going well, just a few more days until the deadline. How's your day been so far?",
+            "timestamp": "2024-08-09T00:58:15.860Z"
+        }
+    },
+    {
+        "model": "chat.message",
+        "pk": 7,
+        "fields": {
+            "chat": 1,
+            "sender": 1,
+            "content": "It's been a bit hectic, but overall it's been okay. How's your weekend going to be?",
+            "timestamp": "2024-08-09T00:59:02.267Z"
+        }
+    },
+    {
+        "model": "chat.message",
+        "pk": 8,
+        "fields": {
+            "chat": 1,
+            "sender": 2,
+            "content": "I'm planning on catching up on some TV shows and maybe going out for dinner with some friends.",
+            "timestamp": "2024-08-09T00:59:18.409Z"
+        }
+    },
+    {
+        "model": "chat.message",
+        "pk": 9,
+        "fields": {
+            "chat": 3,
+            "sender": 4,
+            "content": "HI!",
+            "timestamp": "2024-08-09T01:01:33.463Z"
+        }
+    },
+    {
+        "model": "chat.message",
+        "pk": 10,
+        "fields": {
+            "chat": 3,
+            "sender": 1,
+            "content": "wussp",
+            "timestamp": "2024-08-09T02:30:55.130Z"
+        }
+    },
+    {
+        "model": "chat.message",
+        "pk": 11,
+        "fields": {
+            "chat": 3,
+            "sender": 4,
+            "content": "im fine how about you?",
+            "timestamp": "2024-08-09T02:34:06.675Z"
+        }
+    }
+]
